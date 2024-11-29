@@ -55,10 +55,6 @@ const Feature = () => {
               description: "Simpan dan akses data dari mana saja"
             },
             {
-              title: "Multi-device Support",
-              description: "Akses dari berbagai perangkat"
-            },
-            {
               title: "24/7 Support",
               description: "Dukungan teknis kapan saja"
             }

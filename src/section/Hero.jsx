@@ -29,7 +29,7 @@ const Hero = () => {
               </h1>
               
               <p className="text-xl mb-8 text-blue-100 leading-relaxed max-w-xl">
-                Transformasi pengalaman belanja fashion Anda dengan teknologi virtual try-on canggih. Tingkatkan penjualan dan kepuasan pelanggan.
+                Transformasi pengalaman try-on fashion Anda dengan teknologi virtual try-on canggih. Tingkatkan penjualan dan kepuasan pelanggan.
               </p>
 
               {/* CTA Buttons */}
@@ -38,9 +38,9 @@ const Hero = () => {
                   Mulai Sekarang
                   <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
                 </button>
-                <button className="px-8 py-4 rounded-full font-semibold border-2 border-white/30 hover:bg-white/10 transition-all duration-300 backdrop-blur-sm">
+                {/*<button className="px-8 py-4 rounded-full font-semibold border-2 border-white/30 hover:bg-white/10 transition-all duration-300 backdrop-blur-sm">
                   Lihat Demo
-                </button>
+                </button>*/}
               </div>
 
               {/* Stats */}

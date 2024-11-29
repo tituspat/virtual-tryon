@@ -20,7 +20,7 @@ const ProblemSolution = () => {
             Transformasi Digital Fitting Room
           </h2>
           <p className="text-gray-600 text-lg">
-            Mengatasi tantangan utama industri fashion retail dengan solusi teknologi inovatif
+            Mengatasi tantangan utama industri fashion retail dan meningkatkan pengalaman pelanggan dengan solusi teknologi inovatif
           </p>
         </div>
 
@@ -39,7 +39,7 @@ const ProblemSolution = () => {
                 {
                   icon: <ShoppingBag className="w-5 h-5" />,
                   title: "Tingkat Retur Tinggi",
-                  description: "40% produk fashion online dikembalikan karena masalah ukuran"
+                  description: "Produk fashion masih sering dikembalikan maupuna dibatalkan karena perbedaan ukuran, desain, maupun warna"
                 },
                 {
                   icon: <Store className="w-5 h-5" />,
@@ -49,7 +49,7 @@ const ProblemSolution = () => {
                 {
                   icon: <Users className="w-5 h-5" />,
                   title: "Pengalaman Pelanggan",
-                  description: "Keterbatasan waktu dan lokasi untuk mencoba produk"
+                  description: "Menambah nilai pengalaman baru untuk pelanggan dan juga mengurangi peluang kesalahan dalam perancangan"
                 }
               ].map((item, index) => (
                 <div key={index} className="flex items-start p-4 rounded-xl bg-red-50">
@@ -108,7 +108,7 @@ const ProblemSolution = () => {
         {/* Value Proposition */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { number: "60%", label: "Pengurangan Retur", icon: <TrendingDown className="w-6 h-6" /> },
+            { number: "60%", label: "Pengurangan Pembatalan", icon: <TrendingDown className="w-6 h-6" /> },
             { number: "24/7", label: "Availability", icon: <ShieldCheck className="w-6 h-6" /> },
             { number: "15min", label: "Setup Time", icon: <Zap className="w-6 h-6" /> },
             { number: "50%", label: "Cost Reduction", icon: <Store className="w-6 h-6" /> }
