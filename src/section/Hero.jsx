@@ -25,7 +25,6 @@ const Hero = () => {
                     <path d="M3 9C118.957 4.47226 236.914 3.94452 355 9" stroke="white" strokeWidth="6" strokeLinecap="round"/>
                   </svg>
                 </span>
-                Room
               </h1>
               
               <p className="text-xl mb-8 text-blue-100 leading-relaxed max-w-xl">
